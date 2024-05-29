@@ -1,0 +1,59 @@
+Ejercicio 2a
+Código a añadir al archivo Frase.py
+------------------------------------
+def longitud(self) -> int:
+    return self.__frase.length
+------------------------------------
+Fin del código a añadir al archivo Frase.py
+
+Ejercicio 5a
+Código para reemplazar el método longitud() en el archivo Frase.py
+---------------------------------------------------------------
+def longitud(self) -> int:
+    return self.__frase.count(' ') + 1
+-----------------------------------------------------------------------
+Fin del código para reemplazar el método longitud() en el archivo Frase.py
+
+Ejercicio 7b
+Código a añadir al archivo Frase.py
+------------------------------------
+def buscar(self, subcadena: str) -> bool:
+    return self.__frase.find(subcadena) > -1
+------------------------------------
+Fin del código a añadir al archivo Frase.py
+
+Ejercicio 7f
+Código a añadir al archivo Frase.py
+------------------------------------
+def buscar(self, subcadena: str) -> bool:
+    try:
+        return self.__frase.index(subcadena) >= 0
+    except:
+        return False
+------------------------------------
+Fin del código a añadir al archivo Frase.py
+
+Ejercicio 8c
+Código para el nuevo archivo nombreNC.py
+------------------------------------
+class nombreNC:
+  def __init__(self, f: str):
+    self.__frase = f;
+------------------------------------
+Fin del código del nuevo archivo nombreNC.py
+
+Ejercicio 9a
+Código para añadir al nuevo archivo nombreNC.py
+------------------------------------
+def __str__(self) -> str:
+    return self.frase.__str__()
+------------------------------------
+Fin del código para añadir al nuevo archivo nombreNC.py
+
+Ejercicio 10a
+Código para añadir al nuevo archivo nombreNC.py
+------------------------------------
+def __rep__(self) -> str:
+    return self.frase.__rep__()
+------------------------------------
+Fin del código para añadir al nuevo archivo nombreNC.py
