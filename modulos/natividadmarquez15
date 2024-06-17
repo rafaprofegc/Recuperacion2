@@ -1,0 +1,3 @@
+class nombreNC:
+  def __init__(self, f: str):
+    self.__frase = f;
